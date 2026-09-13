@@ -2,29 +2,26 @@
 
 > Kho tài liệu học tập và ôn tập môn **Mạng Thế Hệ Mới (NGN – Next Generation Network)**.
 
-Repository này dùng để lưu trữ và hệ thống hóa **bài giảng, tài liệu NGN, tài liệu ôn tập và đề thi mẫu**. Đây là **kho tài liệu học tập**, không phải một dự án phần mềm có mã nguồn thực thi.
+Repository này tập trung các **bài giảng, tài liệu tổng hợp, tài liệu ôn tập và đề thi mẫu** phục vụ việc học môn Mạng Thế Hệ Mới. Đây là **kho tài liệu học tập**, không phải dự án phần mềm có mã nguồn thực thi.
 
 ---
 
-## 📚 Nội dung Repository
+## 📚 Nội dung
 
-### 🎓 Bài giảng
+### 🎓 `bai-giang/`
 
-Thư mục `bai-giang/` chứa các file PowerPoint theo chương và bộ bài giảng NGN được nén:
+Tập hợp các bài giảng PowerPoint hiện có trong repository, gồm:
 
 - Chương 1 → Chương 8.
-- Một số file có tên khác nhau nhưng có thể cùng nội dung, chẳng hạn các bản `_1`.
-- `BAI GIANG NGN.rar` — bộ bài giảng NGN được đóng gói.
+- Một số bản bài giảng có tên khác nhau hoặc hậu tố `_1`.
+- `BAI GIANG NGN.rar` — bộ bài giảng được đóng gói.
+- `chuong 1.pptx` — một bản bài giảng Chương 1.
 
-### 📦 Tài liệu tổng hợp
-
-Thư mục `tai-lieu/` chứa:
+### 📦 `tai-lieu/`
 
 - `TAI LIEU NGN.rar` — bộ tài liệu NGN tổng hợp.
 
-### 📝 Ôn tập & đề thi
-
-Thư mục `on-tap/` chứa:
+### 📝 `on-tap/`
 
 - `On tap 1.docx` — tài liệu ôn tập.
 - `Đề thi mẫu CK Mạng thế hệ mới.pdf` — đề thi mẫu cuối kỳ.
@@ -59,51 +56,49 @@ mang_the_he_moi_ngn/
 └── README.md
 ```
 
-### 📌 Ghi chú về file bài giảng
-
-Repository hiện có một số file bài giảng trùng hoặc khác tên nhưng có thể dùng cùng một nội dung. Mình **giữ nguyên tên và nội dung file gốc**, chỉ phân loại chúng vào thư mục để repository dễ nhìn và dễ quản lý hơn.
+> **Lưu ý:** Các file được sắp xếp lại theo nhóm để repository dễ đọc hơn. **Nội dung và tên file gốc được giữ nguyên**, không tự ý gộp hoặc xóa các bản bài giảng khác nhau.
 
 ---
 
-## 🎯 Mục tiêu sử dụng
+## 🎯 Mục tiêu
 
-Repository phù hợp để:
+Repository được sử dụng để:
 
 - 📖 Học lý thuyết môn **Mạng Thế Hệ Mới (NGN)**.
 - 🔎 Tra cứu bài giảng theo chương.
 - 🗃️ Tập trung tài liệu môn học vào một nơi.
 - 📝 Ôn tập trước kiểm tra và thi cuối kỳ.
 - 📄 Luyện tập với đề thi mẫu.
-- 🤖 Kết hợp tài liệu với ChatGPT hoặc công cụ AI để tóm tắt, giải thích và hệ thống hóa kiến thức.
+- 🤖 Kết hợp tài liệu với ChatGPT hoặc các công cụ AI để giải thích, tóm tắt và hệ thống hóa kiến thức.
 
 ---
 
-## 🧭 Gợi ý lộ trình học
+## 🧭 Lộ trình học đề xuất
 
 ```text
-Bài giảng
-   ↓
-Học theo từng chương
-   ↓
-Tóm tắt & hệ thống hóa kiến thức
-   ↓
-Tài liệu ôn tập
-   ↓
-Luyện đề mẫu
-   ↓
-Ôn thi
+Bài giảng theo chương
+        ↓
+Học và ghi chú
+        ↓
+Đối chiếu tài liệu tổng hợp
+        ↓
+Ôn tập
+        ↓
+Làm đề mẫu
+        ↓
+Rà soát kiến thức trước khi thi
 ```
 
 ### Thứ tự đề xuất
 
-1. Học bài giảng theo thứ tự **Chương 1 → Chương 8**.
-2. Đối chiếu với các bộ tài liệu NGN tổng hợp khi cần.
-3. Sử dụng `On tap 1.docx` để củng cố kiến thức.
-4. Làm `Đề thi mẫu CK Mạng thế hệ mới.pdf` để kiểm tra khả năng ôn tập.
+1. Học bài giảng từ **Chương 1 → Chương 8**.
+2. Dùng `tai-lieu/` để tra cứu và bổ sung kiến thức.
+3. Dùng `on-tap/On tap 1.docx` để ôn tập.
+4. Làm `on-tap/Đề thi mẫu CK Mạng thế hệ mới.pdf` để tự kiểm tra.
 
 ---
 
-## 📁 Phân loại tài liệu
+## 📁 Phân loại
 
 | Thư mục | Nội dung |
 |---|---|
@@ -113,21 +108,22 @@ Luyện đề mẫu
 
 ---
 
-## ⚠️ Lưu ý
+## ⚠️ Lưu ý sử dụng
 
-- Repository hiện chủ yếu chứa **tài liệu học tập**.
+- Repository hiện chủ yếu là **tài liệu học tập**.
 - Không có mã nguồn ứng dụng hoặc hệ thống phần mềm cần build/run.
-- Các file được giữ nguyên nội dung gốc; việc sắp xếp chỉ nhằm tổ chức repository rõ ràng hơn.
+- Việc phân thư mục chỉ nhằm tổ chức tài liệu; **không thay đổi nội dung tài liệu gốc**.
 - Một số tài liệu có thể thuộc bản quyền của tác giả hoặc đơn vị phát hành tương ứng.
 - Khi sử dụng ngoài mục đích học tập, cần kiểm tra quyền sử dụng tài liệu.
 
 ---
 
-## 📊 Trạng thái Repository
+## 📊 Thông tin Repository
 
-**Loại:** Kho tài liệu học tập  
-**Chủ đề:** Mạng Thế Hệ Mới (NGN)  
-**Nội dung:** Bài giảng · Tài liệu tổng hợp · Ôn tập · Đề thi mẫu
+- **Tên:** `mang_the_he_moi_ngn`
+- **Chủ đề:** Mạng Thế Hệ Mới (NGN)
+- **Loại:** Kho tài liệu học tập
+- **Nội dung:** Bài giảng · Tài liệu tổng hợp · Ôn tập · Đề thi mẫu
 
 ---
 
