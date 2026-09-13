@@ -1,189 +1,141 @@
 # 🌐 Mạng Thế Hệ Mới (NGN)
 
-## Bài giảng Chương 1: Tổng quan về mạng thế hệ mới
+Kho tài liệu học tập môn **Mạng Thế Hệ Mới (NGN – Next Generation Network)**, tập trung vào bài giảng, tài liệu tổng hợp và đề thi mẫu phục vụ học tập và ôn tập.
 
-> **Tài liệu học tập môn Mạng Viễn thông - Dành cho sinh viên ngành Điện tử - Viễn thông, Công nghệ Thông tin**
-
-[![PowerPoint](https://img.shields.io/badge/Tài%20liệu-PowerPoint-red.svg)](./Bài%20giảng%20chương%201.pptx)
-[![Language](https://img.shields.io/badge/Ngôn%20ngữ-Tiếng%20Việt-green.svg)]()
-[![Topic](https://img.shields.io/badge/Chủ%20đề-NGN-blue.svg)]()
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+> 📚 **Mục đích:** lưu trữ và hệ thống hóa tài liệu môn Mạng Thế Hệ Mới theo từng chương, thuận tiện cho việc học, tra cứu và ôn thi.
 
 ---
 
-## 📡 Giới thiệu
+## 📖 Nội dung Repository
 
-Chào mừng bạn đến với bài giảng **Chương 1: Tổng quan về mạng thế hệ mới (NGN - Next Generation Network)**!
+Repository hiện chứa các nhóm tài liệu sau:
 
-Trong bối cảnh công nghệ viễn thông đang phát triển với tốc độ chóng mặt, mạng NGN được xem là **cuộc cách mạng** trong lĩnh vực viễn thông, đánh dấu sự chuyển đổi từ mạng chuyển mạch kênh truyền thống sang **mạng chuyển mạch gói hội tụ**.
+### 1. 📑 Bài giảng theo chương
 
-Bài giảng này cung cấp cái nhìn tổng quan về:
-- 📞 **Các thành phần của mạng viễn thông**
-- 🏗️ **Phân cấp mạng viễn thông**
-- 🔍 **Đặc điểm và hạn chế của mạng viễn thông hiện nay**
-- 🚀 **Khái niệm, đặc điểm và lý do xuất hiện của NGN**
+Các file PowerPoint được tổ chức theo nội dung từng chương:
+
+| Chương | Tài liệu |
+|---|---|
+| Chương 1 | Tổng quan / nội dung chương 1 |
+| Chương 2 | Nội dung chương 2 |
+| Chương 3 | Nội dung chương 3 |
+| Chương 4 | Nội dung chương 4 |
+| Chương 5 | Nội dung chương 5 |
+| Chương 6 | Nội dung chương 6 |
+| Chương 7 | Nội dung chương 7 |
+| Chương 8 | Nội dung chương 8 |
+
+Repository có một số file bài giảng trùng hoặc khác tên nhưng cùng nội dung, ví dụ `Bài giảng chương 1_1.pptx`, `Bài giảng chương 2_1.pptx`.
+
+### 2. 📦 Bộ tài liệu tổng hợp
+
+- `BAI GIANG NGN.rar` – bộ tài liệu bài giảng NGN được đóng gói.
+- `TAI LIEU NGN.rar` – bộ tài liệu NGN tổng hợp.
+
+### 3. 📝 Tài liệu ôn tập
+
+- `On tap 1.docx` – tài liệu phục vụ ôn tập môn học.
+- `Đề thi mẫu CK Mạng thế hệ mới.pdf` – đề thi mẫu cuối kỳ môn Mạng Thế Hệ Mới.
 
 ---
 
-## 📚 Nội dung bài giảng
+## 🗂️ Cấu trúc hiện tại
 
-### 1. Mạng Viễn Thông
-
-| Nội dung | Mô tả |
-|----------|-------|
-| **Định nghĩa** | Phương tiện truyền thông tin từ đầu phát đến đầu thu, cung cấp dịch vụ cho khách hàng |
-| **Cấu trúc** | Hệ thống các nút chuyển mạch (tổng đài) được nối với nhau bằng đường truyền dẫn |
-| **Phân cấp** | Nút được phân thành nhiều cấp, kết hợp với đường truyền tạo thành các cấp mạng khác nhau |
-
-### 2. Các Thành Phần Chính
-
-| Thành phần | Ví dụ |
-|------------|-------|
-| **Thiết bị chuyển mạch** | Tổng đài nội hạt, Tổng đài quá giang |
-| **Thiết bị truyền dẫn** | Cáp kim loại, Cáp quang, Vô tuyến, Không dây |
-| **Môi trường truyền** | Hữu tuyến (cáp), Vô tuyến (vi ba, vệ tinh) |
-
-> 💡 **Ưu điểm của mạng viễn thông:** Dùng chung đường truyền, tiết kiệm kinh tế
-
-### 3. Phân Cấp Mạng Viễn Thông
-
+```text
+mang_the_he_moi_ngn/
+│
+├── BAI GIANG NGN.rar
+├── TAI LIEU NGN.rar
+│
+├── chuong 1.pptx
+├── Bài giảng chương 1.pptx
+├── Bài giảng chương 1_1.pptx
+├── Bài giảng chương 2.pptx
+├── Bài giảng chương 2_1.pptx
+├── Bài giảng chương 3_1.pptx
+├── Bài giảng chương 4_1.pptx
+├── Bài giảng chương 5_1.pptx
+├── Bài giảng chương 6_1.pptx
+├── Bài giảng chương 7_1.pptx
+├── Bài giảng chương 8_1.pptx
+│
+├── On tap 1.docx
+├── Đề thi mẫu CK Mạng thế hệ mới.pdf
+│
+└── README.md
 ```
-📊 Cấp 1: Mạng đường trục quốc tế
-    ├── Cấp 2: Mạng đường trục quốc gia
-    │   ├── Cấp 3: Mạng quá giang
-    │   │   ├── Cấp 4: Mạng nội hạt
-    │   │   │   └── Cấp 5: Thuê bao
+
+> **Lưu ý:** Cấu trúc trên phản ánh các file đang có trong nhánh `main` hiện tại. Không giả định repository có mã nguồn phần mềm hay chương trình thực thi.
+
+---
+
+## 🎯 Mục tiêu sử dụng
+
+Repository được xây dựng để:
+
+- 📚 Học lý thuyết môn **Mạng Thế Hệ Mới (NGN)**.
+- 🔎 Tra cứu nội dung bài giảng theo từng chương.
+- 📝 Ôn tập trước các bài kiểm tra và thi cuối kỳ.
+- 📄 Sử dụng đề thi mẫu để làm quen với dạng câu hỏi.
+- 🗃️ Tập trung các tài liệu môn học vào một repository duy nhất.
+
+---
+
+## 🧠 Các chủ đề chính
+
+Tùy theo nội dung từng chương trong tài liệu, repository tập trung vào kiến thức liên quan đến **mạng viễn thông và mạng thế hệ mới**, bao gồm các khái niệm, kiến trúc, công nghệ và dịch vụ được trình bày trong bộ bài giảng của môn học.
+
+Repository **không phải là một dự án phần mềm NGN**; đây chủ yếu là **kho tài liệu học tập**.
+
+---
+
+## 📝 Phục vụ ôn thi
+
+Quy trình sử dụng đề xuất:
+
+```text
+Bài giảng theo chương
+        ↓
+Học và hệ thống hóa kiến thức
+        ↓
+Tài liệu ôn tập
+        ↓
+Luyện đề thi mẫu
+        ↓
+Ôn tập trước kỳ thi
 ```
 
-### 4. Đặc Điểm Mạng Viễn Thông Hiện Nay
+Có thể sử dụng repository kết hợp với ChatGPT hoặc các công cụ AI khác để:
 
-| Loại mạng | Đặc điểm |
-|-----------|----------|
-| **Telex** | Gửi bức điện dạng ký tự mã hóa 5 bit (mã Baudot) |
-| **POTS/PSTN** | Thoại số hóa, chuyển mạch kênh, tập trung, phần cứng/phần mềm độc quyền |
-| **Mạng số liệu** | X.25 (chuyển mạch gói), X.21 (chuyển mạch kênh) |
-| **Truyền hình** | Analog, số, vệ tinh |
-| **LAN** | Mạng cục bộ |
-| **ISDN** | Mạng số tích hợp dịch vụ, cung cấp nhiều ứng dụng thoại và phi thoại |
-| **PSDN** | Mạng chuyển mạch số liệu công cộng, chủ yếu cung cấp dịch vụ số liệu |
-| **GSM** | Mạng thoại qua kênh truyền vô tuyến (BSC, BTS, HLR, VLR, MS) |
-
-### 5. So Sánh Các Loại Mạng
-
-| Đặc tính | PSTN | ISDN | PSDN |
-|----------|------|------|------|
-| **Công nghệ** | Chuyển mạch kênh | Kỹ thuật số | Chuyển mạch gói |
-| **Băng thông** | Gán trước | Đa dạng | Thu nhận/giải phóng khi cần |
-| **Đường dẫn** | Dành riêng | Linh hoạt | Không tồn tại đường dẫn riêng |
-| **Chi phí** | Khoảng cách + thời lượng | Đa dạng | Dựa trên sử dụng dữ liệu |
-| **Dịch vụ** | Thoại | Thoại + Dữ liệu + Video | Dữ liệu |
-
-### 6. Hạn Chế Của Mạng Viễn Thông Hiện Nay
-
-- 🔒 **Độc quyền**: Phụ thuộc nhà cung cấp, giảm sức cạnh tranh
-- 📉 **Lạc hậu**: Tổng đài chuyển mạch kênh đã sử dụng hết năng suất
-- 🧩 **Phân mảnh**: Chỉ truyền các dịch vụ độc lập ứng với từng mạng riêng lẻ
-- ❌ **Thiếu mềm dẻo**: Không đáp ứng nhu cầu đa dạng
-- 💰 **Kém hiệu quả**: Trong bảo dưỡng, vận hành và sử dụng tài nguyên
+- Tóm tắt bài giảng.
+- Giải thích khái niệm khó.
+- Hệ thống hóa kiến thức theo chương.
+- Tạo đáp án ôn tập dựa trên tài liệu đã cung cấp.
+- Phân tích đề thi mẫu.
 
 ---
 
-## 🚀 Mạng Thế Hệ Mới (NGN)
+## 📌 Trạng thái Repository
 
-### Định nghĩa
+**Đang được sử dụng làm kho tài liệu học tập môn Mạng Thế Hệ Mới (NGN).**
 
-> *"Mạng thế hệ mới (NGN) là mạng có cơ sở hạ tầng thông tin duy nhất dựa trên công nghệ **chuyển mạch gói**, triển khai các dịch vụ một cách **đa dạng và nhanh chóng**, đáp ứng sự hội tụ giữa thoại và số liệu, giữa di động và cố định."*
-
-### Đặc Điểm Nổi Bật
-
-| Đặc điểm | Ý nghĩa |
-|----------|---------|
-| 🏗️ **Nền tảng mở** | Hệ thống mạng linh hoạt, không bị ràng buộc |
-| 📦 **Chuyển mạch gói** | Dựa trên giao thức thống nhất (IP) |
-| 🔀 **Tách biệt dịch vụ - mạng lưới** | Dịch vụ thực hiện độc lập với hạ tầng |
-| 📈 **Dung lượng tăng** | Thích ứng và đủ dung lượng đáp ứng nhu cầu |
-| ⚡ **Triển khai nhanh** | Dịch vụ mới được đưa ra nhanh chóng |
-
-### Lý Do Xuất Hiện NGN
-
-1. 💰 **Cải thiện chi phí đầu tư**: Dữ liệu xuất hiện ngày càng nhiều trên mạng PSTN trong khi chuyển mạch kênh đáp ứng không tốt
-2. 🌍 **Xu thế đổi mới viễn thông**: Cuộc cách mạng công nghệ đang diễn ra
-3. 💵 **Các nguồn doanh thu mới**: Tạo ra các dịch vụ giá trị gia tăng
+Nội dung hiện tại chủ yếu là **PowerPoint, tài liệu nén, DOCX và PDF**; chưa có mã nguồn ứng dụng hay hệ thống phần mềm đi kèm.
 
 ---
 
-## 🎯 Lợi ích của NGN
+## 👨‍🎓 Thông tin
 
-| Lợi ích | Mô tả |
-|---------|-------|
-| **Hội tụ** | Một mạng duy nhất cho tất cả dịch vụ (thoại, video, dữ liệu) |
-| **Tiết kiệm** | Giảm chi phí vận hành và bảo trì |
-| **Linh hoạt** | Dễ dàng triển khai dịch vụ mới |
-| **Mở** | Tạo môi trường cạnh tranh lành mạnh |
-| **Đa dạng** | Phục vụ nhiều loại hình dịch vụ khác nhau |
+- **Chủ đề:** Mạng Thế Hệ Mới (NGN – Next Generation Network)
+- **Mục đích:** Học tập và ôn thi
+- **Ngôn ngữ tài liệu:** Tiếng Việt
+- **Nền tảng lưu trữ:** GitHub
 
 ---
 
-## 📊 So Sánh Mạng Truyền Thống và NGN
+## 🔗 Repository
 
-| Tiêu chí | Mạng truyền thống | NGN |
-|----------|-------------------|-----|
-| **Công nghệ chuyển mạch** | Kênh | Gói (IP) |
-| **Cấu trúc** | Đóng, độc quyền | Mở, chuẩn hóa |
-| **Dịch vụ** | Mỗi mạng một dịch vụ | Hội tụ, đa dịch vụ |
-| **Triển khai dịch vụ mới** | Chậm, phức tạp | Nhanh, dễ dàng |
-| **Chi phí** | Cao | Thấp hơn |
-| **Khả năng mở rộng** | Hạn chế | Cao |
+[GitHub – mang_the_he_moi_ngn](https://github.com/NguyenHung952/mang_the_he_moi_ngn)
 
 ---
 
-## 🧠 Tóm Tắt Chương
-
-**Nội dung chính:**
-1. ✅ Mạng viễn thông là nền tảng cho mọi dịch vụ truyền thông
-2. ✅ Mạng hiện tại tồn tại nhiều hạn chế: phân mảnh, độc quyền, thiếu mềm dẻo
-3. ✅ NGN là xu hướng tất yếu, giải quyết các hạn chế của mạng hiện tại
-4. ✅ NGN dựa trên nền tảng chuyển mạch gói, hội tụ dịch vụ, mở và linh hoạt
-
----
-
-## 📖 Tài liệu tham khảo
-
-| Tài liệu | Mô tả |
-|----------|-------|
-| **Sách giáo trình** | Mạng viễn thông và NGN |
-| **ITU-T** | Khuyến nghị về NGN |
-| **Tài liệu bổ sung** | Mạng PSTN, ISDN, PSDN, GSM |
-
----
-
-## 🔄 Ứng dụng thực tế
-
-NGN đang được ứng dụng trong:
-
-| Lĩnh vực | Ứng dụng |
-|----------|----------|
-| **Viễn thông** | VoIP, Video Call, Hội nghị truyền hình |
-| **Mạng di động** | 4G/5G, VoLTE, RCS |
-| **Internet** | Mạng lõi IP, CDN, Cloud |
-| **Doanh nghiệp** | IP PBX, UCaaS, Contact Center |
-| **Truyền thông** | IPTV, OTT, Streaming |
-
----
-
-## 🎓 Đối tượng phù hợp
-
-| Đối tượng | Lợi ích |
-|-----------|---------|
-| **Sinh viên ngành Viễn thông** | Nắm vững nền tảng về NGN |
-| **Sinh viên ngành CNTT** | Hiểu về hạ tầng mạng viễn thông |
-| **Kỹ sư mạng** | Cập nhật xu hướng công nghệ |
-| **Chuyên viên quy hoạch** | Hiểu về kiến trúc mạng thế hệ mới |
-
----
-
-## 🌟 Đừng quên ⭐ Star và Share để ủng hộ nhé!
-
----
-
-**Made with ❤️ for students of Telecommunications Networks**
+> 📌 **Ghi chú:** README được viết dựa trên các file thực tế đang có trong repository. Khi bổ sung thêm chương, tài liệu hoặc đề thi, có thể cập nhật lại phần cấu trúc và nội dung tương ứng.
